@@ -1,3 +1,5 @@
+#TODO:  Create a nice string output object and add fizz+bang instead of new output of fizzbang
+
 import unittest
 
 def fizzbang(i):
@@ -11,7 +13,7 @@ def fizzbang(i):
     return('Fizz')
   elif fivemod == 0 and threemod != 0:
     return('Bang')
-  elif fivemod !=0 and threemod !=0:
+  elif fivemod != 0 and threemod != 0:
     return(i)
   else:
     print("ERROR FOUND")
